@@ -70,8 +70,8 @@ def generate_graph(file_name):
         webbrowser.open(graphUrl)
         
 def main():
-    # run_BPProgram(file_name="smartHouse_Paper.js")
-    generate_graph(file_name="smartHouse_Paper.js")
+    # run_BPProgram(file_name="smartHouse_Paper.js") # Run program works
+    generate_graph(file_name="smartHouse_Paper.js") # This doesnt work as it doesnt compile the program successfully. (using pomGraph)
     print("Done")
 
 if __name__ == "__main__":
